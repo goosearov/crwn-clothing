@@ -1,4 +1,11 @@
 body {
-    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding: 20px 60px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+* {
+    box-sizing: border-box;
 }
