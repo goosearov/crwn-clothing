@@ -16,6 +16,7 @@ import {selectCurrentUser} from './redux/user/user.selectors';
 
 
 
+
 class App extends React.Component {
 
 
@@ -36,6 +37,7 @@ class App extends React.Component {
         })
       }
       setCurrentUser(userAuth)
+      
     })
   }
 
