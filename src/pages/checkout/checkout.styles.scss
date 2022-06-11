@@ -40,5 +40,19 @@
       font-size: 24px;
       color: red;
     }
+    @media screen and (max-width: 800px) {
+      width: 90%;
+    }
+    @media screen and (max-width: 500px) {
+      .checkout-header {
+        padding: 5px 0;
+      }
+      .test-warning {
+        font-size: 18px;
+      }
+      .total {
+        font-size: 20px;
+      }
+    }
   }
   
